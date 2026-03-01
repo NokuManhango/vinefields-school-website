@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Vinefields Group of Schools</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/img/vinefields-logo-96.png" alt="Vinefields Junior School logo" />
+          <div class="brand-title">
+            <strong>Vinefields Group of Schools</strong>
+            <span>Prep • Junior • High School • Harare</span>
+          </div>
+        </a>
+
+        <nav class="nav">
+          <a href="about.html">About</a>
+          <a href="academics.html">Academics</a>
+          <a href="admissions.html">Admissions</a>
+          <a href="boarding.html">Boarding</a>
+          <a href="news.html">News</a>
+          <a class="btn solid" href="contact.html">Contact</a>
+        </nav>
+
+        <button id="mobileToggle" class="mobile-toggle">Menu</button>
+      </div>
+
+      <div id="mobileNav" class="mobile-nav">
+        <a href="about.html">About</a>
+        <a href="academics.html">Academics</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="boarding.html">Boarding</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="lead">
+          For admissions enquiries, boarding details, or general information, contact us using the details below.
+        </p>
+
+        <div id="contacts" class="grid2">
+          <div class="card">
+            <h3>Contacts</h3>
+            <p><strong>Call/WhatsApp:</strong> +263 775 814 699</p>
+            <p><strong>Alternative:</strong> +263 774 008 283</p>
+            <p><strong>Landline:</strong> 04 200 1711</p>
+            <p style="margin-top: 12px;"><strong>Address:</strong><br/>5628 Stotford Road, Sunridge Park, Harare</p>
+
+            <div class="hero-actions" style="margin-top: 14px;">
+              <a class="btn solid" href="tel:+263775814699">Call</a>
+              <a class="btn" href="https://wa.me/263775814699" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+
+            <p style="margin-top: 12px; color: var(--muted);">
+              (Publicly listed on posts/directories.)
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Enquiry Form</h3>
+            <form class="form" action="mailto:admissions@vinefields.co.zw" method="post" enctype="text/plain">
+              <label>Full Name
+                <input name="name" type="text" placeholder="Your name" required />
+              </label>
+
+              <label>Email
+                <input name="email" type="email" placeholder="you@email.com" required />
+              </label>
+
+              <label>School Level
+                <select name="level" required>
+                  <option value="">Select…</option>
+                  <option>Prep School</option>
+                  <option>Junior School</option>
+                  <option>High School</option>
+                </select>
+              </label>
+
+              <label>Message
+                <textarea name="message" rows="5" placeholder="Tell us what you need…" required></textarea>
+              </label>
+
+              <div class="hero-actions" style="margin-top: 14px;">
+                <button class="btn solid" type="submit">Send Enquiry</button>
+                <a class="btn" href="admissions.html">Admissions</a>
+              </div>
+
+              <p style="margin-top: 12px; color: var(--muted); font-size: 0.95rem;">
+                Note: This uses your email app (mail-to). Later we can connect a “real” online form without needing a backend.
+              </p>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <strong>Vinefields Group of Schools</strong><br/>
+          <small>Harare, Zimbabwe</small>
+        </div>
+        <div>
+          <small>© <span id="year"></span> Vinefields Group of Schools.</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
