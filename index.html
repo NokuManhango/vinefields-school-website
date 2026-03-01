@@ -2,167 +2,151 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vinefields School</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vinefields Group of Schools | Harare</title>
+  <meta name="description" content="Vinefields Group of Schools — a solid foundation from early learning to secondary education in Harare." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
   <header class="topbar">
     <div class="container">
-      <div class="brand">
-        <div class="logo">V</div>
-        <div>
-          <div class="school-name">Vinefields School</div>
-          <div class="tagline">Prep • Junior • High School</div>
-        </div>
+      <div class="topbar-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/img/vinefields-logo-96.png" alt="Vinefields Junior School logo" />
+          <div class="brand-title">
+            <strong>Vinefields Group of Schools</strong>
+            <span>Prep • Junior • High School • Harare</span>
+          </div>
+        </a>
+
+        <nav class="nav" aria-label="Main navigation">
+          <a href="about.html">About</a>
+          <a href="academics.html">Academics</a>
+          <a href="admissions.html">Admissions</a>
+          <a href="boarding.html">Boarding</a>
+          <a href="news.html">News</a>
+          <a class="btn solid" href="contact.html">Contact</a>
+        </nav>
+
+        <button id="mobileToggle" class="mobile-toggle" aria-label="Open menu">Menu</button>
       </div>
 
-      <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#academics">Academics</a>
-        <a href="#admissions">Admissions</a>
-        <a href="#news">News</a>
-        <a href="#contact" class="btn">Contact</a>
-      </nav>
+      <div id="mobileNav" class="mobile-nav" aria-label="Mobile navigation">
+        <a href="about.html">About</a>
+        <a href="academics.html">Academics</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="boarding.html">Boarding</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <h1>Growing minds. Shaping futures.</h1>
-          <p>
-            Welcome to Vinefields School — a nurturing learning environment for
-            Prep, Junior, and High School students.
-          </p>
-          <div class="hero-actions">
-            <a class="btn" href="#admissions">Admissions</a>
-            <a class="btn secondary" href="#academics">Our Programmes</a>
-          </div>
-        </div>
-
-        <div class="hero-card">
-          <h3>Quick Info</h3>
-          <ul>
-            <li><strong>Levels:</strong> Prep, Junior, High School</li>
-            <li><strong>Focus:</strong> Academics, Character, Leadership</li>
-            <li><strong>Term Dates:</strong> Updated in News</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
       <div class="container">
-        <h2>About Vinefields</h2>
-        <p>
-          Vinefields School is committed to excellence in teaching and learning,
-          developing confident students with strong values.
-        </p>
-
-        <div class="cards">
-          <div class="card">
-            <h3>Our Mission</h3>
-            <p>To provide quality education that develops the whole student.</p>
-          </div>
-          <div class="card">
-            <h3>Our Vision</h3>
-            <p>To be a leading school known for excellence and integrity.</p>
-          </div>
-          <div class="card">
-            <h3>Our Values</h3>
-            <p>Respect • Responsibility • Resilience • Curiosity</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="academics" class="section alt">
-      <div class="container">
-        <h2>Academics</h2>
-        <div class="cards">
-          <div class="card">
-            <h3>Prep School</h3>
-            <p>Early learning foundations through play, literacy, and numeracy.</p>
-          </div>
-          <div class="card">
-            <h3>Junior School</h3>
-            <p>Strong core skills development, creativity, and confidence building.</p>
-          </div>
-          <div class="card">
-            <h3>High School</h3>
-            <p>Academic excellence, leadership growth, and university readiness.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="admissions" class="section">
-      <div class="container">
-        <h2>Admissions</h2>
-        <ol class="steps">
-          <li>Complete the enquiry form</li>
-          <li>Receive a call/email from our admissions team</li>
-          <li>Submit required documents</li>
-          <li>Confirm placement and onboarding</li>
-        </ol>
-        <p class="note">
-          Want a printable admissions form? We can add a downloadable PDF later.
-        </p>
-      </div>
-    </section>
-
-    <section id="news" class="section alt">
-      <div class="container">
-        <h2>News & Events</h2>
-        <div class="cards">
-          <div class="card">
-            <h3>Term Dates</h3>
-            <p>We’ll post term dates and key announcements here.</p>
-          </div>
-          <div class="card">
-            <h3>Sports Day</h3>
-            <p>Coming soon — highlights and updates from Vinefields events.</p>
-          </div>
-          <div class="card">
-            <h3>Clubs</h3>
-            <p>STEM, Debate, Arts, and more — we’ll feature student activities.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact</h2>
-        <div class="contact-grid">
-          <div class="card">
-            <h3>Get in touch</h3>
-            <p><strong>Email:</strong> admissions@vinefields.school</p>
-            <p><strong>Phone:</strong> +353 (0)00 000 0000</p>
-            <p><strong>Address:</strong> (Add your real address)</p>
-          </div>
-
-          <form class="card" onsubmit="return false;">
-            <h3>Enquiry Form</h3>
-            <label>
-              Parent/Guardian Name
-              <input type="text" placeholder="Your name" />
-            </label>
-            <label>
-              Email
-              <input type="email" placeholder="you@email.com" />
-            </label>
-            <label>
-              Message
-              <textarea rows="4" placeholder="Tell us what you need..."></textarea>
-            </label>
-            <button class="btn" type="submit">Send</button>
-            <p class="tiny">
-              (This form is a placeholder for now. Later we’ll connect it to a real service.)
+        <div class="hero-inner">
+          <div>
+            <h1>A Solid Foundation for a Brighter Future</h1>
+            <p>
+              Vinefields Group of Schools offers a supportive learning environment from early learning
+              through to secondary education. We focus on academic excellence, strong discipline,
+              and holistic development.
             </p>
-          </form>
+
+            <div class="badges">
+              <div class="badge">Registered ZIMSEC Centre</div>
+              <div class="badge">Modern Teaching Methods</div>
+              <div class="badge">Junior & Senior Boarding</div>
+            </div>
+
+            <div class="hero-actions">
+              <a class="btn solid" href="admissions.html">Admissions</a>
+              <a class="btn" href="academics.html">Explore Academics</a>
+              <a class="btn brown" href="contact.html">Call / WhatsApp</a>
+            </div>
+          </div>
+
+          <aside class="hero-card">
+            <h3 style="margin-top:0">Quick Info</h3>
+            <div class="kpis">
+              <div class="kpi">
+                <strong>Levels</strong>
+                <span>Toddlers → Secondary</span>
+              </div>
+              <div class="kpi">
+                <strong>Boarding</strong>
+                <span>Junior & Senior</span>
+              </div>
+              <div class="kpi">
+                <strong>Location</strong>
+                <span>Sunridge Park, Harare</span>
+              </div>
+              <div class="kpi">
+                <strong>Contact</strong>
+                <span>+263 775 814 699</span>
+              </div>
+            </div>
+
+            <p style="margin:14px 0 0; color: var(--muted);">
+              We believe success is measured beyond the classroom — through character, confidence,
+              and lifelong habits.
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Why Vinefields?</h2>
+        <p class="lead">
+          A school environment built on discipline, support, and a commitment to raising capable learners
+          ready for the future.
+        </p>
+
+        <div class="grid3">
+          <div class="card">
+            <h3>Academic Standards</h3>
+            <p>We are proudly a Registered ZIMSEC Centre and support learners with strong academic foundations.</p>
+          </div>
+          <div class="card">
+            <h3>Technology + Tradition</h3>
+            <p>A learning environment where modern tools and strong values work together to develop excellence.</p>
+          </div>
+          <div class="card">
+            <h3>Student Development</h3>
+            <p>Leadership, confidence, cultural identity, and real-world skills — nurtured from early years.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="card">
+          <h3>Our School Levels</h3>
+          <ul>
+            <li><strong>Prep:</strong> early learning foundations and confidence-building</li>
+            <li><strong>Junior:</strong> core literacy, numeracy, curiosity, and personal growth</li>
+            <li><strong>High School:</strong> stronger academic focus, leadership, and future readiness</li>
+          </ul>
+          <div style="margin-top:14px;">
+            <a class="btn" href="academics.html">View Academics</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Visit Us</h3>
+          <p><strong>Address:</strong> 5628 Stotford Road, Sunridge Park, Harare</p>
+          <p><strong>Call/WhatsApp:</strong> +263 775 814 699</p>
+          <p><strong>Alternative:</strong> +263 774 008 283</p>
+          <p style="margin-top:12px; color: var(--muted);">
+            (Details shown publicly on school posts and directories.)
+          </p>
+          <div style="margin-top:14px;">
+            <a class="btn solid" href="contact.html">Contact Page</a>
+          </div>
         </div>
       </div>
     </section>
@@ -170,10 +154,19 @@
 
   <footer class="footer">
     <div class="container">
-      <p>© <span id="year"></span> Vinefields School. All rights reserved.</p>
+      <div class="footer-inner">
+        <div>
+          <strong>Vinefields Group of Schools</strong><br/>
+          <small>Prep • Junior • High School • Harare</small>
+        </div>
+        <div>
+          <small>© <span id="year"></span> Vinefields Group of Schools.</small><br/>
+          <small><a href="contact.html">Admissions Enquiries</a></small>
+        </div>
+      </div>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
