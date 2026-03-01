@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinefields School</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">V</div>
+        <div>
+          <div class="school-name">Vinefields School</div>
+          <div class="tagline">Prep • Junior • High School</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#academics">Academics</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#news">News</a>
+        <a href="#contact" class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Growing minds. Shaping futures.</h1>
+          <p>
+            Welcome to Vinefields School — a nurturing learning environment for
+            Prep, Junior, and High School students.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#admissions">Admissions</a>
+            <a class="btn secondary" href="#academics">Our Programmes</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h3>Quick Info</h3>
+          <ul>
+            <li><strong>Levels:</strong> Prep, Junior, High School</li>
+            <li><strong>Focus:</strong> Academics, Character, Leadership</li>
+            <li><strong>Term Dates:</strong> Updated in News</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Vinefields</h2>
+        <p>
+          Vinefields School is committed to excellence in teaching and learning,
+          developing confident students with strong values.
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Our Mission</h3>
+            <p>To provide quality education that develops the whole student.</p>
+          </div>
+          <div class="card">
+            <h3>Our Vision</h3>
+            <p>To be a leading school known for excellence and integrity.</p>
+          </div>
+          <div class="card">
+            <h3>Our Values</h3>
+            <p>Respect • Responsibility • Resilience • Curiosity</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="academics" class="section alt">
+      <div class="container">
+        <h2>Academics</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Prep School</h3>
+            <p>Early learning foundations through play, literacy, and numeracy.</p>
+          </div>
+          <div class="card">
+            <h3>Junior School</h3>
+            <p>Strong core skills development, creativity, and confidence building.</p>
+          </div>
+          <div class="card">
+            <h3>High School</h3>
+            <p>Academic excellence, leadership growth, and university readiness.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="admissions" class="section">
+      <div class="container">
+        <h2>Admissions</h2>
+        <ol class="steps">
+          <li>Complete the enquiry form</li>
+          <li>Receive a call/email from our admissions team</li>
+          <li>Submit required documents</li>
+          <li>Confirm placement and onboarding</li>
+        </ol>
+        <p class="note">
+          Want a printable admissions form? We can add a downloadable PDF later.
+        </p>
+      </div>
+    </section>
+
+    <section id="news" class="section alt">
+      <div class="container">
+        <h2>News & Events</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Term Dates</h3>
+            <p>We’ll post term dates and key announcements here.</p>
+          </div>
+          <div class="card">
+            <h3>Sports Day</h3>
+            <p>Coming soon — highlights and updates from Vinefields events.</p>
+          </div>
+          <div class="card">
+            <h3>Clubs</h3>
+            <p>STEM, Debate, Arts, and more — we’ll feature student activities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div class="card">
+            <h3>Get in touch</h3>
+            <p><strong>Email:</strong> admissions@vinefields.school</p>
+            <p><strong>Phone:</strong> +353 (0)00 000 0000</p>
+            <p><strong>Address:</strong> (Add your real address)</p>
+          </div>
+
+          <form class="card" onsubmit="return false;">
+            <h3>Enquiry Form</h3>
+            <label>
+              Parent/Guardian Name
+              <input type="text" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="you@email.com" />
+            </label>
+            <label>
+              Message
+              <textarea rows="4" placeholder="Tell us what you need..."></textarea>
+            </label>
+            <button class="btn" type="submit">Send</button>
+            <p class="tiny">
+              (This form is a placeholder for now. Later we’ll connect it to a real service.)
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Vinefields School. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
